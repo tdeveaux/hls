@@ -1,0 +1,5 @@
+hls.obj: hls.c hls.h
+	CL /c /nologo /W4 hls.c
+
+clean:
+	DEL hls.obj
